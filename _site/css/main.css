@@ -1,0 +1,212 @@
+:root {
+    --bg-color: #000;
+    --text-color: #fff;
+    --shine: #fff8de;
+    --link-color: orange;
+    --link-hover: var(--shine);
+}
+
+body {
+    font-family: Urbanist;
+    font-weight: 300;
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+    grid-auto-rows: auto 1fr auto;
+    background: var(--bg-color);
+    color: var(--text-color);
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    /* position: fixed; */
+    top: 0;
+}
+
+header, footer {
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+}
+header {
+    background: var(--bg-color);
+    box-shadow: 0 0 1em 1em var(--bg-color);
+    padding-top: 15px;
+    padding-bottom: 5px;
+    grid-area: header;
+}
+
+nav section {
+    margin-bottom: 5px;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    font-weight: 400;
+}
+
+footer {
+    padding-bottom: 15px;
+    grid-area: footer;
+}
+
+main {
+    background: url(https://images.pexels.com/photos/1252890/pexels-photo-1252890.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: auto;
+    grid-area: main;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    overflow-y: scroll;
+}
+main article {
+    max-width: 60ch;
+    margin: auto;
+    background: var(--bg-color);
+    box-shadow: 0 0 2em 4em var(--bg-color);
+    z-index: 1;
+    padding: 0 2em 2em;
+}
+
+h1 {
+    font-family: Big Shoulders;
+    font-weight: normal;
+    font-size: 48px;
+}
+
+article h1 {
+    text-align: center;
+}
+article p {
+    margin-top: 0;
+    text-align: center;
+    font-size: 18px;
+    color: var(--text-color)
+}
+
+h2 {
+    font-family: Big Shoulders;
+    margin-bottom: .2em;
+    font-weight: normal;
+    text-align: center;
+}
+
+header.top img {
+    vertical-align: bottom;
+    animation: shrink 4s ease;
+    animation-iteration-count: 1;
+    width: 125px;
+}
+img.watermark {
+    animation: fade 8s linear;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 75px;
+    max-width: 10%;
+    opacity: 1;
+    z-index: 4;
+}
+header img {
+    width: 600px;
+    max-width: 100%;
+    vertical-align: bottom;
+    animation: fade 3s ease;
+    transition: .3s ease;
+}
+header img:hover, header.top img {
+    filter: drop-shadow(0 0 .3em var(--shine));
+    transition: .5s ease;
+}
+header h1 {
+    margin: 0;
+    font-family: Academy;
+}
+
+header h1 + h1 {
+    transform: rotatex(180deg) translatey(35px);
+    mask-image: linear-gradient(transparent, white);
+    filter: blur(4px) brightness(1.5);
+    line-height: 1.2em;
+    margin-bottom: -1em;
+    pointer-events: none;
+}
+/* header nav {
+    margin-top: -3em;
+} */
+a {
+    color: var(--link-color);
+    transition: .4s ease;
+}
+a:visited {
+    color: var(--link-color);
+}
+a:hover {
+    color: var(--link-hover);
+}
+@keyframes shrink {
+    from {
+        width: 600px;
+    }
+    to {
+        width: 125px;
+    }
+}
+main {
+    animation: fade 3s ease;
+}
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    15% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 1080px) {
+    h1 {
+        font-size: 32px;
+    }
+    img.watermark {
+        display: none;
+    }
+    header.top img {
+        float: left;
+        animation: none;
+        width: 75px;
+    }
+    header.top {
+        text-align: left;
+    }
+    header.top nav section {
+        justify-content: left;
+    }
+    header.top h1 + h1 {
+        display: none;
+    }
+}
+@media (prefers-color-scheme:light) {
+    :root {
+        --text-color: black;
+        --bg-color: white;
+        --shine: #3e4557;
+        --link-color: #77c3ec;
+    }
+    header img, img.watermark {
+        content: url(/img/black-logo.png);
+    }
+    header h1 + h1 {
+        opacity: .7;
+    }
+    main {
+        background-image: url(https://images.pexels.com/photos/235621/pexels-photo-235621.jpeg);
+    }
+    header nav, nav section {
+        font-weight: 600;
+    }
+
+}

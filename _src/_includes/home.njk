@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybernetic Coven</title>
+    <link rel="stylesheet" href={{ '/css/main.css' | url }}>
+    <link rel="stylesheet" href={{ '/css/fonts.css' | url }}>
+</head>
+<body>
+    <header>
+        <a href="/mission"><img src={{ '/img/white-logo.png' | url }}></a>
+        <h1>Cybernetic Coven</h1>
+        <h1>Cybernetic Coven</h1>
+        <nav>
+            <section>
+                {% for label,link in map %}
+                <a href={{link | url}}>{{label}}</a>
+                {% endfor %}
+            </section>
+            <small>Support us on:</small>
+            <section>
+                {% for label,link in links %}
+                <a href={{link | url}}>{{label}}</a>
+                {% endfor %}
+            </section>
+        </nav>
+    </header>
+    <footer>Copyright 2023</footer>
+</body>
+</html>
