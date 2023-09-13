@@ -1,6 +1,6 @@
 @font-face {
 	font-family: Academy;
-	src: url(/cybernetic-coven/fonts/Academy Engraved LET Fonts.ttf) format('truetype');
+	src: url('/cybernetic-coven/fonts/Academy Engraved LET Fonts.ttf') format('truetype');
 	font-display: swap;
 }
 @font-face {
