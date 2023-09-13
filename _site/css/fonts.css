@@ -1,21 +1,21 @@
 @font-face {
 	font-family: Academy;
-	src: url(/cybernetic-coven/fonts/Academy Engraved LET Fonts.ttf) format('truetype');
+	src: url('/fonts/Academy Engraved LET Fonts.ttf') format('truetype');
 	font-display: swap;
 }
 @font-face {
     font-family: Urbanist;
-    src: url(/cybernetic-coven/fonts/Urbanist-VariableFont_wght.ttf) format('truetype');
+    src: url(/fonts/Urbanist-VariableFont_wght.ttf) format('truetype');
     font-display: swap;
 }
 @font-face {
     font-family: Urbanist;
     font-style: italic;
-    src: url(/cybernetic-coven/fonts/Urbanist-Italic-VariableFont_wght.ttf) format('truetype');
+    src: url(/fonts/Urbanist-Italic-VariableFont_wght.ttf) format('truetype');
     font-display: swap;
 }
 @font-face {
     font-family: Big Shoulders;
-    src: url(/cybernetic-coven/fonts/BigShouldersDisplay-VariableFont_wght.ttf) format('truetype');
+    src: url(/fonts/BigShouldersDisplay-VariableFont_wght.ttf) format('truetype');
     font-display: swap;
 }

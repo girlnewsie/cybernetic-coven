@@ -83,7 +83,8 @@ article p {
     margin-top: 0;
     text-align: center;
     font-size: 18px;
-    color: var(--text-color)
+    color: var(--text-color);
+    letter-spacing: 1px;
 }
 
 h2 {
@@ -99,7 +100,7 @@ header.top img {
     animation-iteration-count: 1;
     width: 125px;
 }
-img.watermark {
+a.watermark {
     animation: fade 8s linear;
     position: fixed;
     bottom: 0;
@@ -109,6 +110,9 @@ img.watermark {
     opacity: 1;
     z-index: 4;
 }
+a.watermark img {
+    width: 75px;
+}
 header img {
     width: 600px;
     max-width: 100%;
@@ -116,7 +120,7 @@ header img {
     animation: fade 3s ease;
     transition: .3s ease;
 }
-header img:hover, header.top img {
+header img:hover, header.top img, a.watermark img:hover {
     filter: drop-shadow(0 0 .3em var(--shine));
     transition: .5s ease;
 }
@@ -179,6 +183,7 @@ main {
         float: left;
         animation: none;
         width: 75px;
+        margin-bottom: 1em;
     }
     header.top {
         text-align: left;
@@ -198,7 +203,7 @@ main {
         --link-color: #77c3ec;
     }
     header img, img.watermark {
-        content: url(/cybernetic-coven/img/black-logo.png);
+        content: url(/img/black-logo.png);
     }
     header h1 + h1 {
         opacity: .7;
