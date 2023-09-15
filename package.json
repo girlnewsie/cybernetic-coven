@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "build": "env NODE_ENV=production npx eleventy --pathprefix 'cybernetic-coven'",
-    "serve": "eleventy --serve"
+    "serve": "eleventy --serve",
+    "dev": "npx @11ty/eleventy --serve"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "@chec/commerce.js": "^2.8.0",
+    "dotenv": "^16.3.1"
   }
 }

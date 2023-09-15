@@ -1,0 +1,11 @@
+---
+layout: base.njk
+---
+
+<ul>
+  {% for product in products %}
+    <li>
+        <a href="/products/{{ product.permalink | url }}">{{ product.name }}</a> – {{ product.price.raw }} USD
+    </li>
+  {% endfor %}
+</ul>

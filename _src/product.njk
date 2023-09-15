@@ -1,0 +1,16 @@
+---
+layout: base.njk
+pagination:
+  alias: product
+  data: products
+  size: 1
+permalink: products/{{ product.permalink | slug }}/index.html
+
+---
+
+<h1>{{ product.name }}</h1>
+{% for img in product.image %}
+<img class="product-image" src={{img.url}}>
+{% endfor %}
+<div class="description">{{product.description | safe}}</div>
+<p><a target="_blank" class="button" href={{ product.checkout_url.checkout }}>{{product.price.raw}} USD</a></p>

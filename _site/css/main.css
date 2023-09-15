@@ -87,6 +87,10 @@ article p {
     letter-spacing: 1px;
 }
 
+article .description p {
+    text-align: left;
+}
+
 h2 {
     font-family: Big Shoulders;
     margin-bottom: .2em;
@@ -215,4 +219,18 @@ main {
         font-weight: 600;
     }
 
+}
+
+/* Store stuff */
+a.button {
+    background: var(--link-color);
+    color: var(--bg-color);
+    border-radius: .5em;
+    padding: .5em;
+    text-decoration: none;
+}
+a.button:hover {
+    background: var(--link-hover);
+    color: var(--bg-color);
+    text-decoration: none;
 }
