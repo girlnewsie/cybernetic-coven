@@ -235,3 +235,6 @@ a.button:hover {
     color: var(--bg-color);
     text-decoration: none;
 }
+img.product-image {
+    width: 100%;
+}

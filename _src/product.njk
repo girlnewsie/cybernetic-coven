@@ -8,6 +8,10 @@ permalink: products/{{ product.permalink | slug }}/index.html
 
 ---
 
+{% if product.image %}
+<img class="product-image" src={{product.image.url}}>
+{% else %}
 <h1>{{ product.name }}</h1>
+{% endif %}
 <div class="description">{{product.description | safe}}</div>
 <p><a target="_blank" class="button" href={{ product.checkout_url.checkout }}>{{product.price.raw}} USD</a></p>
