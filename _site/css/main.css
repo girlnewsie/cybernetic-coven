@@ -228,6 +228,7 @@ a.button {
     border-radius: .5em;
     padding: .5em;
     text-decoration: none;
+    font-weight: 600;
 }
 a.button:hover {
     background: var(--link-hover);
