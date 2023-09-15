@@ -87,6 +87,10 @@ article p {
     letter-spacing: 1px;
 }
 
+article .description p {
+    text-align: left;
+}
+
 h2 {
     font-family: Big Shoulders;
     margin-bottom: .2em;
@@ -203,7 +207,7 @@ main {
         --link-color: #77c3ec;
     }
     header img, img.watermark {
-        content: url(/cybernetic-coven/img/black-logo.png);
+        content: url(/img/black-logo.png);
     }
     header h1 + h1 {
         opacity: .7;
@@ -215,4 +219,19 @@ main {
         font-weight: 600;
     }
 
+}
+
+/* Store stuff */
+a.button {
+    background: var(--link-color);
+    color: var(--bg-color);
+    border-radius: .5em;
+    padding: .5em;
+    text-decoration: none;
+    font-weight: 600;
+}
+a.button:hover {
+    background: var(--link-hover);
+    color: var(--bg-color);
+    text-decoration: none;
 }
