@@ -13,5 +13,5 @@ permalink: products/{{ product.permalink | slug }}/index.html
 {% else %}
 <h1>{{ product.name }}</h1>
 {% endif %}
+<p><a target="_blank" class="button" href={{ product.checkout_url.checkout }}>Buy it now ({% if product.price.raw == 0 %}Free!{% else %}{{product.price.raw}} USD{% endif %})</a></p>
 <div class="description">{{product.description | safe}}</div>
-<p><a target="_blank" class="button" href={{ product.checkout_url.checkout }}>{{product.price.raw}} USD</a></p>
