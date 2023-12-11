@@ -101,7 +101,7 @@ h2 {
 
 header.top img {
     vertical-align: bottom;
-    animation: shrink 4s ease;
+    
     animation-iteration-count: 1;
     width: 125px;
 }
