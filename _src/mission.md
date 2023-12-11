@@ -1,6 +1,7 @@
 ---
 layout: base.njk
 title: Our Guiding Philosophy
+excerpt: "Art is part of being a person, how we make sense of the world and relate to others; art and games are one: they are the utopia of rules that shape our storytelling and delude ourselves into socially constructed reality."
 ---
 
 ## Art is Communication and about People.

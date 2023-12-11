@@ -1,6 +1,7 @@
 ---
 title: What is the Cybernetic Coven?
 layout: base.njk
+excerpt: The Cybernetic Coven, or CyCo, is an international collective supporting our small group of like-minded artists in our pursuit of creative and fulfilling work.
 ---
 
 The Cybernetic Coven, or CyCo, is an international collective supporting our small group of like-minded artists in our pursuit of creative and fulfilling work. We believe that it is possible, or should be possible, for artists to do the work that is meaningful to them, without relying on unsustainable or unhealthy practices.
