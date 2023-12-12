@@ -269,11 +269,14 @@ section.product-list {
 .product-list product a, .product-list product .price {
     display: block;
 }
-img.thumbnail {
+article > img.thumbnail, a.hover {
     float: left;
     width: 20ch;
     margin-right: 1ch;
     border-radius: 5px;
+}
+a.hover img.thumbnail {
+    width: 100%;
 }
 
 h2 {
@@ -282,4 +285,11 @@ h2 {
 }
 br {
     margin-bottom: .5em;
+}
+a.hover {
+    transition: .3s ease;
+    filter: sepia(0);
+}
+a.hover:hover {
+    filter: sepia(1);
 }
