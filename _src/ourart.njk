@@ -16,5 +16,5 @@ excerpt: Browse the projects CyCo has currently in development.
         {% if product.image %}
           <img class="thumbnail" src={{product.image}}>
         {% endif %}
-        {{ product.description | safe }}
+        <p>{{ product.description | safe }}</p>
   {% endfor %}
