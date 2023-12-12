@@ -27,6 +27,7 @@ header, footer {
     text-align: center;
     width: 100%;
     z-index: 2;
+    clear: both;
 }
 header {
     background: var(--bg-color);
@@ -82,10 +83,16 @@ article h1 {
 }
 article p {
     margin-top: 0;
-    text-align: center;
+    text-align: left;
     font-size: 18px;
     color: var(--text-color);
     letter-spacing: 1px;
+}
+article p.em {
+    font-style: italic;
+}
+article p.center {
+    text-align: center;
 }
 
 article .description p {
@@ -260,5 +267,16 @@ section.product-list {
     display: block;
 }
 img.thumbnail {
-    width: 100%;
+    float: left;
+    width: 20ch;
+    margin-right: 1ch;
+    border-radius: 5px;
+}
+
+h2 {
+    clear: both;
+    margin-top: 1em;
+}
+br {
+    margin-bottom: .5em;
 }

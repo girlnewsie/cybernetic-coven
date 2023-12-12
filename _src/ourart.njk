@@ -1,0 +1,19 @@
+---
+title: Our Art
+layout: base.njk
+---
+<p>These are the projects we have previously released, as well as those that are currently in development. Many of these are exclusively available through our Patreon.</p>
+
+  {% for product in products %}
+      <h2>{{product.name}}
+        {% if product.status %}({{product.status}}){% endif %}
+      </h2>
+        {% if product.itch %}<p class="center"><a href={{ product.itch }}>Buy it on Itch.io</a></p>{% endif %}
+        {% if product.patreontier %}
+          <p class="em">This project is currently available {% if product.patreonexclusive %}only {% endif %}through our Patreon at the {{product.patreontier}} tier or higher.</p>
+        {% endif %}
+        {% if product.image %}
+          <img class="thumbnail" src={{product.image}}>
+        {% endif %}
+        {{ product.description | safe }}
+  {% endfor %}
