@@ -11,7 +11,7 @@
     <br/>
     You have twelve days. Will you manage to stop the clock?
 - name: "Violet Tangerine"
-  status: ALPHA
+  status: BETA
   image: /img/violet_tangerine.png
   patreontier: Mechapprentice
   patreonexclusive: true
