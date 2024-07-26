@@ -27,4 +27,4 @@ After compensating everyone's labor, we keep some of what's left in reserve for 
 
 ## Raising Funds
 
-The Cybernetic Coven relies on donations from supportive fans and friends through [Patreon](https://www.patreon.com/CyberneticCoven), although for larger one-time funding pushes we may also use crowdfunding platforms to supplement our reserves. We have ran a successful [crowdfunding campaign]() for one of our games; we are looking forward for many more. 
+The Cybernetic Coven relies on donations from supportive fans and friends through [Patreon](https://www.patreon.com/CyberneticCoven), although for larger one-time funding pushes we may also use crowdfunding platforms to supplement our reserves. We have ran a successful [crowdfunding campaign](https://www.kickstarter.com/projects/heat-ttrpg/heat-high-excitement-action-tabletop) for one of our games; we are looking forward for many more.
