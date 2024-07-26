@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="{{title}}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://www.cyberneticcoven.com/" />
+    <meta property="og:image" content="/img/banner_logo.png" />
+    <meta property="og:description" content="{{excerpt}}" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <title>Cybernetic Coven - {{title}}</title>
+    <link rel="stylesheet" href={{ '/css/main.css' | url }}>
+    <link rel="stylesheet" href={{ '/css/fonts.css' | url }}>
+</head>
+<body>
+    <header class="top">
+        <img src={{ '/img/white-logo.png' | url }}>
+        <h1>Cybernetic Coven</h1>
+        <h1>Cybernetic Coven</h1>
+        <nav>
+            <section>
+                {% for label,link in map %}
+                <a href={{ link | url }}>{{label}}</a>
+                {% endfor %}
+            </section>
+            <small>Support us on:</small>
+
+            <section>
+                {% for label,link in links %}
+                <a href={{ link | url }}>{{label}}</a>
+                {% endfor %}
+            </section>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1>{{ title }}</h1>
+            {{ content | safe }}
+
+            {% for product in collections.art %}{% if product.data.title != title %}
+                <h2>{{product.data.title | safe}}
+                    {% if product.data.status %}({{product.data.status}}){% endif %}
+                </h2>
+                    {% if product.data.itch %}
+                        <p class="center"><a href={{ product.data.itch }}>Buy it on Itch.io</a></p>
+                    {% endif %}
+                    {% if product.data.patreontier %}
+                        <p class="em">This project is currently available {% if product.data.patreonexclusive %}only {% endif %}through our Patreon at the {{product.data.patreontier}} tier or higher.</p>
+                    {% endif %}
+                    {% if product.data.image %}
+                        {% if product.data.url %}<a href="{{product.data.url}}" class="hover">{% endif %}
+                            <img class="thumbnail" src={{product.data.image}}>
+                        {% if product.data.url %}</a>{% endif %}
+                    {% endif %}
+                <p>{{ product.content | safe }}</p>
+                {% endif %}
+            {% endfor %}
+            <footer>
+                <nav>
+                    <small>Support us on:</small>
+                    <section>
+                        {% for label,link in links %}
+                        <a href={{link | url}}>{{label}}</a>
+                        {% endfor %}
+                    </section>
+                </nav>
+                <small>Cybernetic Coven ©2023</small>
+
+            </footer>
+        </article>
+    </main>
+    <a class="watermark" href={{ '/' | url }}><img src={{ '/img/white-logo.png' | url }}></a>
+
+</body>
+</html>

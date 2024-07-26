@@ -1,0 +1,14 @@
+---
+title: 'XII: Inner Demons'
+status: Released
+image: /img/xii_inner_demons.png
+patreontier: Cyber Familiar
+---
+
+You have become the target of a monstrosity beyond human reckoning. An otherworldly monster known as an Archdemon, which has pulled you into a surreal and nightmarish world of magic and mystery.
+
+It has weaponized your fears, manifested your darkest terrors into the world around you, and now waits for twelve days to pass, at the end of which it will break into the world and devour you whole.
+
+But you are not alone. With others pulled into the wake of the Archdemon and your own cadre of lesser demons willing to fight alongside you to save their own skin, you’ll have to call on every last drop of your will and your courage to survive.
+
+You have twelve days. Will you manage to stop the clock?

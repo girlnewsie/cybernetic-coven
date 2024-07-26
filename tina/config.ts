@@ -33,7 +33,8 @@ export default defineConfig({
         label: "Posts",
         path: "_src",
         match: {
-          include: "*"
+          include: "*",
+          exclude: "index"
         },
         format: "md",
         fields: [
@@ -50,6 +51,56 @@ export default defineConfig({
             label: "Body",
             isBody: true,
           },
+        ],
+      },
+      {
+        name: "art",
+        label: "Art",
+        path: "_src/ourart",
+        match: {
+          include: "*",
+          exclude: "index"
+        },
+        format: "md",
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Description",
+            isBody: true,
+          },
+          {
+            type: "string",
+            name: "status",
+            label: "Current Status",
+          },
+          {
+            type: "string",
+            name: "image",
+            label: "Name of Image File",
+          },
+          {
+            type: "string",
+            name: "patreontier",
+            label: "Tier on Patreon"
+          },
+          {
+            type: "boolean",
+            name: "exclusive",
+            label: "Is this work only available through the Patreon?"
+          },
+          {
+            type: "string",
+            name: "url",
+            label: "URL"
+          }
         ],
       },
     ],
