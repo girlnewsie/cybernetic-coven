@@ -1,6 +1,6 @@
 ---
 title: 'The Last Masquerade '
-status: RELEASED
+status: Released
 patreontier: Cyber-Familiar
 exclusive: false
 url: 'https://cyberneticcoven.itch.io/the-last-masquerade'
