@@ -1,7 +1,7 @@
 ---
 title: Strays of the Realmscape
 status: ALPHA
-image: img/20240501154907_1.jpg
+image: img/StraysAlpha.jpg
 patreontier: Hex-Processor
 exclusive: true
 url: 'https://www.patreon.com/posts/99993932'
