@@ -1,8 +1,8 @@
 ---
 title: 'HEAT: High Excitement Action Tabletop'
-status: ALPHA
+status: BETA
 image: /img/heat.webp
-patreontier: Hex Processor
+patreontier: Mechapprentice
 exclusive: true
 ---
 
