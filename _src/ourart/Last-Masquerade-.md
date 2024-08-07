@@ -1,5 +1,5 @@
 ---
-title: 'The Last Masquerade '
+title: The Last Masquerade
 status: Released
 image: /img/LastMasquerade.png
 patreontier: Cyber-Familiar
