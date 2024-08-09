@@ -1,7 +1,7 @@
 ---
 title: Magic Dungeons
 status: ALPHA
-image: img/magicdungeoncards.png
+image: /img/magicdungeoncards.png
 patreontier: Hex-Processor
 exclusive: true
 url: 'https://www.patreon.com/posts/109762938?pr=true'
