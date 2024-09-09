@@ -1,7 +1,7 @@
 ---
 title: Ruin Has Come
 status: ALPHA
-image: ''
+image: /img/RuinHasCome.png
 patreontier: Hex-Processor
 exclusive: true
 url: 'https://www.patreon.com/posts/102236606'
