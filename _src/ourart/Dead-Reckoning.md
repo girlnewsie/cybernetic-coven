@@ -1,7 +1,7 @@
 ---
 title: Dead Reckoning
 status: ALPHA
-image: img/Dead Reckoning ich3.jpg
+image: /img/Dead Reckoning ich3.jpg
 patreontier: Hex-Processor
 exclusive: true
 url: 'https://cyberneticcoven.itch.io/dead-reckoning'
