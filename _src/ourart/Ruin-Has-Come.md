@@ -1,7 +1,7 @@
 ---
 title: Ruin Has Come
-status: ALPHA
-image: /img/RuinHasCome.png
+status: BETA
+image: /img/Itch Store Graphics Ruin Has Come Cover.png
 patreontier: Hex-Processor
 exclusive: true
 url: 'https://www.patreon.com/posts/beta-ruin-has-120459753'
