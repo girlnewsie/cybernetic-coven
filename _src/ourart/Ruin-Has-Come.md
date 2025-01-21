@@ -2,7 +2,7 @@
 title: Ruin Has Come
 status: BETA
 image: /img/Itch Store Graphics Ruin Has Come Cover.png
-patreontier: Mecha-Apprentice
+patreontier: Mechapprentice
 exclusive: true
 url: 'https://www.patreon.com/posts/beta-ruin-has-120459753'
 ---
