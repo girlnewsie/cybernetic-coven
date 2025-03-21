@@ -1,6 +1,7 @@
 ---
 title: Autumnal Conductor
 status: 'Released '
+image: /img/18672902-2f92-467d-be87-7b82f3d75e7f/autumnal.jpeg
 url: 'https://cyberneticcoven.itch.io/autumnal-conductor'
 ---
 
