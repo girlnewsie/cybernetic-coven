@@ -1,7 +1,7 @@
 ---
 title: Magic Dungeons
 status: BETA
-image: /img/magicdungeoncards.png
+image: /img/Itch Store Graphics Magic Dungeons Cover.png
 patreontier: Mechapprentice
 exclusive: true
 url: 'https://www.patreon.com/posts/109762938?pr=true'
