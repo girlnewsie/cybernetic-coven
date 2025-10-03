@@ -1,9 +1,10 @@
 ---
 title: Violet Tangerine
-status: BETA
+status: RELEASED
 image: /img/violet_tangerine.png
-patreontier: Mechapprentice
-exclusive: true
+patreontier: ''
+exclusive: false
+url: 'https://cyberneticcoven.itch.io/violet-tangerine'
 ---
 
 Violet Tangerine is a roleplaying game about the 2e edition of the Italian Job TTRPG, a more streamlined version of the original TTRPG from the 60s; it is lost media, found only reprinted in the last pages of d20 Italian Job released under the OGL in 2003.
