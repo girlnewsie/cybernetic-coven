@@ -1,10 +1,10 @@
 ---
 title: Ruin Has Come
-status: BETA
+status: RELEASED
 image: /img/RuinHasCome2.png
-patreontier: Mechapprentice
+patreontier: ''
 exclusive: true
-url: 'https://www.patreon.com/posts/beta-ruin-has-120459753'
+url: 'https://cyberneticcoven.itch.io/ruin-has-come'
 ---
 
 Do you have what it takes to survive the night? And those around you? How many will die? How many can you afford to lose? What is important to preserve? What will you make important? Ruin Has Come is a game all about making the tough decisions and being the one making such calls – instead of those that may be sacrificed. Set in a town besieged by darkness, the Townsfolk barricade themselves in precious Haven, trying to repel Threats creeping out from encroaching Dungeons. 
