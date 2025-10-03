@@ -3,7 +3,7 @@ title: Ruin Has Come
 status: RELEASED
 image: /img/RuinHasCome2.png
 patreontier: ''
-exclusive: true
+exclusive: false
 url: 'https://cyberneticcoven.itch.io/ruin-has-come'
 ---
 
