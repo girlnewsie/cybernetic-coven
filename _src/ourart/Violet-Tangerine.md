@@ -1,6 +1,6 @@
 ---
 title: Violet Tangerine
-status: RELEASED
+status: Released
 image: /img/violet_tangerine.png
 patreontier: ''
 exclusive: false
