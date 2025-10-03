@@ -1,7 +1,7 @@
 ---
 title: Violet Tangerine
 status: Released
-image: img/VT Cover.png
+image: /img/VT_Cover.png
 patreontier: ''
 exclusive: false
 url: 'https://cyberneticcoven.itch.io/violet-tangerine'
