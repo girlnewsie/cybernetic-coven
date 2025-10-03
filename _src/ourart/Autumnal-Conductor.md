@@ -1,6 +1,6 @@
 ---
 title: Autumnal Conductor
-status: 'Released '
+status: Released
 image: /img/autumnal.jpeg
 url: 'https://cyberneticcoven.itch.io/autumnal-conductor'
 ---
