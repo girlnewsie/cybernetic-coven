@@ -1,6 +1,6 @@
 ---
 title: Ruin Has Come
-status: RELEASED
+status: Released
 image: /img/RuinHasCome2.png
 patreontier: ''
 exclusive: false
