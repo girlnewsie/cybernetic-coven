@@ -1,8 +1,8 @@
 ---
 title: Magic Dungeons
-status: ALPHA
+status: BETA
 image: /img/magicdungeoncards.png
-patreontier: Hex-Processor
+patreontier: Mechapprentice
 exclusive: true
 url: 'https://www.patreon.com/posts/109762938?pr=true'
 ---
