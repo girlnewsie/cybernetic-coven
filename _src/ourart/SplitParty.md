@@ -1,7 +1,7 @@
 ---
 title: Split//Party
 image: /img/split_party.png
-url: 'https://splitparty.substack.com/'
+url: 'https://splitparty.beehiiv.com/'
 ---
 
 Split/Party is a newsletter dedicated to critical analysis of roleplaying games and examining the intricate and unexamined aspects of the artform of cooperative collaborative storytelling.
