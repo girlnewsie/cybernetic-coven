@@ -3,6 +3,7 @@ title: 'XII: Inner Demons'
 status: Released
 image: /img/xii_inner_demons.png
 patreontier: Cyber Familiar
+url: 'https://cyberneticcoven.itch.io/xii-inner-demons'
 ---
 
 You have become the target of a monstrosity beyond human reckoning. An otherworldly monster known as an Archdemon, which has pulled you into a surreal and nightmarish world of magic and mystery.
