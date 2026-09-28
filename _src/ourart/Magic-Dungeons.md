@@ -4,7 +4,7 @@ status: BETA
 image: /img/ItchStoreGraphicsMagicDungeonsCover.png
 patreontier: Mechapprentice
 exclusive: true
-url: 'https://www.patreon.com/posts/109762938?pr=true'
+url: 'https://cyberneticcoven.itch.io/magic-dungeons'
 ---
 
 Magic Dungeons is a exploration in giving new meaning to our beloved card games. Pick you favorite cards and assemble a drafting cube, creating a story, a dungeon and adventurers.
