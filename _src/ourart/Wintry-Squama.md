@@ -1,7 +1,7 @@
 ---
 title: Wintry Squama
 status: Released
-image: 'https://assets.tina.io/18672902-2f92-467d-be87-7b82f3d75e7f/various_covers_1.jpg'
+image: /img/various_covers_1.jpg
 url: 'https://cyberneticcoven.itch.io/wintry-squama'
 ---
 
